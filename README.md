@@ -1,4 +1,5 @@
 ![image](https://github.com/Rafhaelslv/Database-Parto/assets/127260453/32d9d560-dd6e-41be-ac8d-a2f07a073d2c)
+
 Foram delimitadas as seguintes restrições:
 Para a tabela mãe:
 - O ID é auto incremental, iniciando em 1001 e indo de 1 em 1
