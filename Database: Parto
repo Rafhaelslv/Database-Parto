@@ -6,7 +6,7 @@ GO
 CREATE TABLE BEBE (
 id_bebe			INT				NOT NULL IDENTITY(1, 1),
 nome			VARCHAR(60)		NOT NULL,
-data_nasc		DATE			NOT NULL DEFAULT('GETDATE'),
+data_nasc		DATE			NOT NULL DEFAULT(GETDATE()),
 altura			DECIMAL(7,2)	NOT NULL CHECK(altura < 0),
 peso			DECIMAL(4,3)	NOT NULL CHECK(peso < 0), 
 maeid_mae		INT				NOT NULL,
